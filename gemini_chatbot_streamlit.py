@@ -20,7 +20,7 @@ def load_faq_data(file_path):
     return faq_data
 
 # FAQ 데이터 불러오기
-faq_data = load_faq_data('faq_data.json')
+faq_data = load_faq_data('smartfarm.json')
 
 # 세션 상태 초기화
 if "messages" not in st.session_state:
