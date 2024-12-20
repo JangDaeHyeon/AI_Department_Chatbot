@@ -11,7 +11,7 @@ API_KEY = os.getenv('GOOGLE_GEMINI_API_KEY')
 genai.configure(api_key=API_KEY)
 
 # Streamlit 앱 타이틀 설정
-st.title("전주대학교 인공지능 학과 챗봇")
+st.title("스마트팜 생육정보 챗봇")
 
 # JSON 파일에서 FAQ 데이터 불러오기
 def load_faq_data(file_path):
